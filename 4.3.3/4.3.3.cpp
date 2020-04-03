@@ -11,7 +11,7 @@ using namespace cv;
 int main()
 {
 	cv::Mat out; 
-    cv:Mat src = imread("D:\\lena.jpg", 0);
+    cv:Mat src = imread("D:\\lena.jpg", 1);
 	if (src.empty()) return -1;
 	const cv::Point2f src_pt[] = { cv::Point2f(200,200),cv::Point2f(250,200),cv::Point2f(200,100) };
 	const cv::Point2f dst_pt[] = { cv::Point2f(300,100),cv::Point2f(300,50),cv::Point2f(200,100) };
